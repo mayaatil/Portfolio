@@ -6,7 +6,7 @@ The portfolio contains finished projects, and those that are in the making. The 
 
 ## Screenshot
 
-![The portfolio includes navigation and redirect links, personalized images of the creator in gif form, and subheadings that contains information in which the user can observe and learn more about. Additionally, there are headings that contain an About Me, Work and Project Developments, Work History with a downloadable resume, and Future Endeavors.](./assets/images/screencapture-file-C-Users-mayas-code-hw2b-index-html-2022-02-13-22_36_48.png)
+![The portfolio includes navigation and redirect links, personalized images of the creator in gif form, and subheadings that contains information in which the user can observe and learn more about. Additionally, there are headings that contain an About Me, Work and Project Developments, Work History with a downloadable resume, and Future Endeavors.](./assets/images/portfolio-screenshot.png)
 
 ## Links to Application
 
