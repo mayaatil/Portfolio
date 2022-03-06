@@ -56,8 +56,14 @@ header {
   height: 800px;
   width: 300px;
   padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border: solid 2.5px #2f2f2f;
   margin: 25px;
+}
+
+img:hover {
+  background-color: rgb(255, 255, 255);
 }
 header h1 {
   display: inline-block;
