@@ -1,7 +1,7 @@
-//display date under heading
-$("#today").text(moment().format("MMMM Do, YYYY h:mm A z"));
+// //display date under heading
+// $("#today").text(moment().format("MMMM Do, YYYY h:mm A z"));
 
-// //variables
+// // //variables
 // let apiKey = "c8bf9352a7fc31b88f1966db48bcdf4f";
 
 // //make API call
