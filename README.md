@@ -2,7 +2,7 @@
 
 ## Description
 
-The portfolio contains finished projects, and those that are in the making. The portfolio itself is very user friendly in terms of accessibility, and it contains easy navigation to optimize the user's experience. The Portfolio itself utilzies CSS as the main design and a bit of JavaScript to update the page to reflect the current date. The other projects added go a bit more in depth with side server APIs and JavaScript. There are links in which the user can follow the creator on platforms such as GitHub and Linkedin, and the user is also able to contact the creator via telephone and email.
+The portfolio contains finished projects, and those that are in the making. The portfolio itself is very user friendly in terms of accessibility, and it contains easy navigation to optimize the user's experience. The Portfolio itself utilzies CSS as the main design. The other projects added go a bit more in depth with side server APIs and JavaScript. There are links in which the user can follow the creator on platforms such as GitHub and Linkedin, and the user is also able to contact the creator via telephone and email.
 
 ## Screenshot
 
