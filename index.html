@@ -15,7 +15,9 @@
 
 <body>
     <header>
-        <h1>Maya Tillman</h1>
+        <h1>Maya Tillman
+
+        </h1>
         <nav>
             <ul>
                 <li>
@@ -36,44 +38,104 @@
     </header>
 
 
-    <main class="outline">
-        <section class="right">
+    <main>
 
-            <h2>Check out these projects</h2>
-            <p>
-                <a href="https://github.com/Team-WYSIWYG/project"><img src="./assets/images/IMG-8989.jpg"
-                        alt="Money FLagz." class="github-display"></a>
-                <a href="https://github.com/mayaatil/hw3b"><img src="./assets/images/IMG-8990.jpg"
-                        alt="Password Generator." class="github-display"></a>
-                <a href="https://github.com/mayaatil/hw4"><img src="./assets/images/IMG-9351.jpg" alt="Quiz."
-                        class="github-display"></a>
-            </p>
+        <h2 class="projects">Projects</h2>
+
+        <section class="center">
+
+
+
+            <container class="slideshow slide-container">
+                <div class="slides fade">
+
+                    <img class="slideshow-img" src="./assets/images/IMG-8989.jpg">
+                    <div class="slide-text">Password Generator</div>
+                </div>
+
+                <div class="slides fade">
+
+                    <img class="slideshow-img" src="./assets/images/IMG-8990.jpg">
+                    <div class="slide-text">Code Quiz</div>
+                </div>
+
+                <div class="slides fade">
+
+                    <img class="slideshow-img" src="./assets/images/IMG-9351.jpg">
+                    <div class="slide-text">Collaboration Project 1</div>
+                </div>
+
+                <div class="slides fade">
+
+                    <img class="slideshow-img" src="img3.jpg">
+                    <div class="slide-text">Collaboration Project 2</div>
+                </div>
+
+                <div class="slides fade">
+
+                    <img class="slideshow-img" src="img3.jpg">
+                    <div class="slide-text">Weather Dashboard</div>
+                </div>
+
+                <div class="slides fade-animation">
+
+                    <img class="slideshow-img" src="img3.jpg">
+                    <div class="slide-text">Team Profile Generator</div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </container>
 
         </section>
-        <section id="about-me">
+        <container class="align">
+            <section id="about-me">
 
-            <img src="./assets/images/maya-profile.jpg" alt="Maya Tillman profile image." class="box">
+                <img src="./assets/images/maya-profile.jpg" alt="Maya Tillman profile image." class="box">
 
-        </section>
-        <section id="contact-me" class="box">
+            </section>
 
-            <h2>Contact</h2>
-            <p>
-                <a href="mailto:mayatillman17@gmail.com"><i class="fa-solid fa-envelope icon-size"></i></a>
-                <a href="www.linkedin.com/in/maya-tillman-430084227"><i class="fa-brands fa-linkedin icon-size"></i></a>
-                <a href="https://voice.google.com"><i class="fa-solid fa-phone icon-size"></i></a>
-            </p>
-        </section>
-        <section id="my-resume">
-            <p>
-                <a href="./assets/pdf/maya resume 1_14_2022 (1).pdf" download="resume">
-                    <img src="./assets/images/resume-screenshot.png" alt="Maya Tillman's resume." class="box"></a>
-            </p>
-        </section>
-        <section id="my-projects" class="box">
-            <h2>Github</h2>
-            <p><a href="https://www.github.com/mayaatil"><i class="fa-brands fa-github icon-size2"></i></a></p>
-        </section>
+            <section class="box">
+                <h2>About Me</h2>
+                <div class="box2">
+                    <div class="intro">Data Engineer by day, Web Developer by night.</div>
+                    <div class="intro">MS in Data Engineering, Certificate in Coding.</div>
+                </div>
+            </section>
+
+            <section id="contact-me" class="box">
+
+                <h2>Contact</h2>
+                <div>
+                    <a href="mailto:mayatillman17@gmail.com"><i class="fa-solid fa-envelope icon-size"></i></a>
+                    <a href="www.linkedin.com/in/maya-tillman-430084227"><i
+                            class="fa-brands fa-linkedin icon-size"></i></a>
+                    <a href="https://voice.google.com"><i class="fa-solid fa-phone icon-size"></i></a>
+                </div>
+            </section>
+
+            <section id="my-projects" class="box">
+                <h2>Github</h2>
+                <p><a href="https://www.github.com/mayaatil"><i class="fa-brands fa-github icon-size2"></i></a></p>
+            </section>
+
+            <section id="my-resume">
+
+                <div>
+                    <a href="./assets/pdf/maya resume 1_14_2022 (1).pdf" download="resume">
+                        <img src="./assets/images/resume-screenshot.png" alt="Maya Tillman's resume." class="box show">
+                    </a>
+
+                </div>
+            </section>
+
+        </container>
     </main>
     <footer>Est. 1998</footer>
     <script src="./assets/js/script.js"></script>
